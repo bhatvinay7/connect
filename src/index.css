@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+/* .swiper-button-prev{
+    @apply text-slate-400 opacity-45  bg-slate-300 rounded-full w-14 h-14 p-3 -left-7
+}
+.swiper-button-next{
+    @apply text-slate-400 opacity-45 bg-slate-300 rounded-full w-14 h-14 p-3 absolute -right-7
+} */
+
+
+ .swiper-pagination-bullet-active {
+  @apply bg-white text-white
+ }
+ .swiper-pagination-bullet-inactive {
+  @apply bg-yellow-100 text-white
+ }
+ .swifer-horizontal{
+  @apply m-6
+ }
+.swiper-vertical {
+    @apply h-[100px] w-4/5 flex flex-col items-center justify-center   /* Adjust this to your needs */
+  } 
+
+  .myswifer-vertical{
+    @apply flex flex-col
+  }
+ .swifer-wrapper{
+    @apply flex h-full w-full   justify-center items-center 
+ }
+ .swifer-horizontal{
+    @apply m-0 flex items-center justify-center
+ }
+/* Add this to your global CSS file */
+.custom-scrollbar::-webkit-scrollbar {
+    @apply w-4 h-2 overflow-y-scroll bg-gray-200
+  }
+  
+  .custom-scrollbar-thumb::-webkit-scrollbar-thumb {
+    @apply bg-slate-400 rounded-none w-4 h-4 hover:bg-slate-500 
+  }
+  
+  .custom-scrollbar-track::-webkit-scrollbar-track {
+    @apply bg-slate-200 bg-opacity-80 rounded-none /* Track color */
+   }
+ .event_track {
+  @apply bg-yellow-200 rounded-full text-black 
+ } 
+ /* .swiper-wrapper{
+  @apply w-full  !important 
+ }  */
+ /* .swiper-slide-prev{
+  @apply w-full !important
+ }
+
+ .swiper-slide{
+  @apply flex-shrink-0 w-full !important
+ }
+
+ /* .swiper-slide-next{
+  @apply w-full !important
+ } 
+ .swiper-slide-active{
+  @apply w-full !important
+ } 
+
+ .swiper-slide-prev{
+  @apply w-full !important
+ }  */
+ .react-calendar__tile {
+  @apply  rounded-full  ; /* Prevent scaling on hover */
+ 
+ }
+ 
+ .react-calendar{
+  @apply w-auto h-auto p-2
+ }
+ 
+ /* .react-calendar__month-view__weekdays__weekdays{
+  @apply gap-1 w-10 h-10
+ }   */
+
+ .react-calendar__viewContainer{
+  @apply w-auto 
+ }  
+ .react-calendar__month-view__days button{
+  @apply  my-2 w-full
+ } 
+ /* .react-calendar__month-view__days{
+  @apply  w-full grid grid-cols-7 gap-10  grid-rows-[50px] place-content-center
+ }  */
+ .react-calendar__month-view__days button abbr{
+  @apply w-full
+ } 
+
+ .react-calendar__year-view__months button{
+  @apply max-w-20 max-h-12 rounded-md flex items-center place-content-center
+ }  
+ 
+ .react-calendar__navigation{
+ @apply bg-transparent
+}
+  
+@keyframes spin_conic {
+  0% {
+    background-image: conic-gradient(from 0deg, #ff7e5f, #feb47b, #ff7e5f);
+  }
+  100% {
+    background-image: conic-gradient(from 360deg, #ff7e5f, #feb47b, #ff7e5f);
+  }
+}
+
+.animate-spin_conic {
+  animation: spin_conic 2s infinite linear;
+}
