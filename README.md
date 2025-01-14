@@ -20,14 +20,15 @@ It is a robust platform designed to streamline student workshops, event manageme
     <td><img src="https://i.ibb.co/sb6H2pg/image1.jpg" alt="Image 1" style="object-fit: contain; max-width: 100%; height: auto;"/></td>
     <td><img src="https://i.ibb.co/nDY5jKG/image7.jpg" alt="Image 7" style="object-fit: contain; max-width: 100%; height: auto;"/></td>
   </tr>
-    <td><img src="https://i.ibb.co/qp2jDG0/image3.jpg" alt="Image 3" style="object-fit: contain; max-width: 100%; height: auto;"/></td>
   <tr>
+    <td><img src="https://i.ibb.co/qp2jDG0/image3.jpg" alt="Image 3" style="object-fit: contain; max-width: 100%; height: auto;"/></td>
     <td><img src="https://i.ibb.co/smm09GZ/image4.jpg" alt="Image 4" style="object-fit: contain; max-width: 100%; height: auto;"/></td>
   </tr>
-    <td><img src="https://i.ibb.co/ryrjcsC/image5.jpg" alt="Image 5" style="object-fit: contain; max-width: 100%; height: auto;"/></td>
   <tr>
+    <td><img src="https://i.ibb.co/ryrjcsC/image5.jpg" alt="Image 5" style="object-fit: contain; max-width: 100%; height: auto;"/></td>
     <td><img src="https://i.ibb.co/qk65BCL/image6.jpg" alt="Image 6" style="object-fit: contain; max-width: 100%; height: auto;"/></td>
-  </tr>
+  </tr>  
+ 
 </table>
 
 
