@@ -8,7 +8,7 @@ import { useState,useEffect } from "react";
 //import "./Styles/Registration.css";
 import Form from './Form.jsx';
 import axios from '../fetch/axios.js'
-import useAxiosPrivate from '../../../DB/useAxiosPrivate.js';
+import useAxiosPrivate from '../fetch/useAxiosPrivate.js';
 export default function Registration({eventType}){
   const {auth}=useAuth()
   const axiosPrivate=useAxiosPrivate()

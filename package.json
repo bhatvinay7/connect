@@ -16,7 +16,11 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@react-oauth/google": "^0.12.1",
     "@tailwindcss/aspect-ratio": "^0.4.2",
+<<<<<<< HEAD
     "axios": "^1.7.2",
+=======
+    "axios": "^1.7.9",
+>>>>>>> 026f6a24fb5288054bc3d3fdf8d46e487398fcf1
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "cookie-parser": "^1.4.6",
@@ -36,7 +40,11 @@
     "react-dropzone": "^14.3.5",
     "react-icons": "^5.2.1",
     "react-markdown": "^9.0.1",
+<<<<<<< HEAD
     "react-router-dom": "^7.1.0",
+=======
+    "react-router-dom": "^7.1.1",
+>>>>>>> 026f6a24fb5288054bc3d3fdf8d46e487398fcf1
     "react-slick": "^0.30.2",
     "react-spinners": "^0.14.1",
     "remark-gfm": "^4.0.0",

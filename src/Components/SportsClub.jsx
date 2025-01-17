@@ -13,7 +13,7 @@ import RecentClubEvents from './RecentClubEvents.jsx';
 import ClubGoalSection from './ClubGoalSection.jsx';
 import WhatsAppLink  from './WhatsAppLink.jsx';
 import ClubStatistics from './ClubStatistics.jsx';
-import useAxiosPrivate from "../../../DB/useAxiosPrivate";
+import useAxiosPrivate from "../fetch/useAxiosPrivate";
 // import { Outlet } from 'react-router-dom';
 export default function SportsClub() {
     const axiosPrivate=useAxiosPrivate()

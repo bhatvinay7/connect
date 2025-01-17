@@ -20,7 +20,7 @@ import Review from "./Review.jsx";
 import axios from '../fetch/axios.js'
 import PropagateLoader from "react-spinners/PropagateLoader";
 import Footer from './Footer.jsx'
-import useAxiosPrivate from '../../../DB/useAxiosPrivate.js';
+import useAxiosPrivate from '../fetch/useAxiosPrivate.js';
 import {fadeIn} from '../fetch/fadeIn.js'
 export default function Home() {
   const axiosPrivate=useAxiosPrivate()

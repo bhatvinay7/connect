@@ -13,7 +13,7 @@ import ClubNavigation from './ClubNavigation.jsx';
 import RecentClubEvents from './RecentClubEvents.jsx';
 import ClubGoalSection from './ClubGoalSection.jsx';
 import WhatsAppLink from './WhatsAppLink.jsx';
-import useAxiosPrivate from '../../../DB/useAxiosPrivate.js';
+import useAxiosPrivate from '../fetch/useAxiosPrivate.js';
 export default function CulturalClub() {
   const axiosPrivate = useAxiosPrivate()
   const [value, onChange] = useState(new Date().toISOString());

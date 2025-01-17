@@ -14,7 +14,7 @@ import ClubNavigation from './ClubNavigation.jsx';
 import RecentClubEvents from './RecentClubEvents.jsx';
 import WhatsAppLink from './WhatsAppLink.jsx';
 import ClubStatistics from './ClubStatistics.jsx';
-import useAxiosPrivate from '../../../DB/useAxiosPrivate.js';
+import useAxiosPrivate from '../fetch/useAxiosPrivate.js';
 import ClubGoalSection from './ClubGoalSection.jsx';
 
 // import { Outlet } from 'react-router-dom';

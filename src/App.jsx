@@ -10,11 +10,17 @@ import Home from './Components/Home.jsx';
 import About from './Components/About.jsx';
 import SignIn, { action as signinaction } from './Components/SignIn.jsx';
 import Login, { action as loginaction } from './Components/Login.jsx';
+<<<<<<< HEAD
 import Coderesource from "./Components/Coderesource.jsx";
 import Event from "./Components/Event.jsx";
 import CoderesourceError from "./Components/ErrorComponent/CoderesourceError.jsx";
 import EventDetails from './Components/EventDetails.jsx';
 import EventError from "./Components/ErrorComponent/EventError.jsx";
+=======
+import Event from "./Components/Event.jsx";
+
+import EventDetails from './Components/EventDetails.jsx';
+>>>>>>> 026f6a24fb5288054bc3d3fdf8d46e487398fcf1
 import Registration from './Components/Registration.jsx';
 import AuthRequire from './Components/AuthRequire.jsx';
 import PersistantLogin from "./Components/PersistantLogin.jsx";
@@ -36,6 +42,7 @@ import Error404 from './Components/Error404.jsx'
 import SearchClubEvents from './Components/SearchClubEvents.jsx'
 import EventInfoDownlode from './Components/EventInfoDownlode.jsx'
 import ClubGoalForm from './Components/clubGoalsSectionForm.jsx'
+<<<<<<< HEAD
 localStorage.setItem("login", true);
 function App() {
   const roles=import.meta.env.VITE_USER_ROLES
@@ -44,6 +51,16 @@ function App() {
   const GooleAuthWrapper = () => {
     return (
       <GoogleOAuthProvider clientId={clientId} >
+=======
+function App() {
+  const roles=import.meta.env.VITE_USER_ROLES
+  const clientId=import.meta.env.VITE_CLIENT_ID
+ 
+  
+  const GooleAuthWrapper = () => {
+    return (
+      <GoogleOAuthProvider clientId={clientId}>
+>>>>>>> 026f6a24fb5288054bc3d3fdf8d46e487398fcf1
         <Login />
       </GoogleOAuthProvider>
     )
