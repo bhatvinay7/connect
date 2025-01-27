@@ -1,3 +1,5 @@
+[Website Link](https://connectwith.onrender.com/signin)
+
 # Connectr
 It is a robust platform designed to streamline student workshops, event management, and alumni networking. It offers a user-friendly interface with a search bar to easily locate workshops and events. Students can explore both past and upcoming events, ensuring they stay informed about opportunities relevant to their interests and field of study. The search feature enables users to filter events based on specific criteria, such as event name, or categories, making the discovery process quick and intuitive.The platform allows students to register for events seamlessly. Once registered, participants receive email confirmations that include event details and reminders, ensuring they don’t miss out on their commitments. Workshops hosted on the platform are carefully curated to focus on a single domain approach, allowing students to develop specialized skills and gain in-depth knowledge in their chosen field. This ensures that participants are well-prepared for academic and professional challenges.
 
